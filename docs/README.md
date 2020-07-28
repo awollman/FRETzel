@@ -6,3 +6,5 @@ Useful for identifying cells from brightfield images in messy and crowded data s
 See [Getting started](GettingStarted.md) and [User guide](UserGuide.md) in docs for more information.
 
 Using Open Microscopy Environment Bio-Formats MATLAB toolbox to open microscopy files. See https://www.openmicroscopy.org/bio-formats/downloads/.
+
+![Image of interface](completeGUI.JPG)
