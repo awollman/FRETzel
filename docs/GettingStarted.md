@@ -1,5 +1,9 @@
 # Getting Started
 
+Download and run either the Mac or Windows executable files. You may be prompted to download the Matlab runtime environment.
+
+OR
+
 To get the code, either set up source control in Matlab or use git to clone the repository. If this already sounds too complicated use the following instructions to download
 
 1. Click 'View on Github' at the top
