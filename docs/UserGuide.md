@@ -6,6 +6,8 @@ FRETzel performs cell segmentation and FRET analysis of cells over a time series
 
 See diplayGUI.jpg and completeGUI.jpg for the user interface at opening and once an experiment using adipocytes has been analysed.
 
+## System requirements
+Executables require MATLAB runtime environments as detailed in their folders. Tested on Windows 10 and Mac OSX. Typical install time is a few minutes.
 
 ## Using the GUI
 
