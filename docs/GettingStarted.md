@@ -10,3 +10,6 @@ To get the code, either set up source control in Matlab or use git to clone the 
 2. Click the green 'Clone or download' button and download the whole repository
 3. Put the folder in your Matlab path and unzip if necessary
 4. Make sure all code is added to the Matlab path using 'Set path'
+
+## Test data
+Test data of yeast cells is available in this folder. See the ReadMe file in this folder for more instructions.
