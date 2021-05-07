@@ -18,9 +18,19 @@ If running the source code in MATLAB, ensure all the code is downloaded (see Get
 -At this point the user should check the parameters are correct (see Parameters below).
 
 #### 2. Cell selection, segmentation and analysis
-- The user clicks 'Select cells'. A cursor appears and the user selects desired cells in the brightfield image with a left click, backspace undoes the previous selected point and right click on the final cell ends the cell selection.
+- Cells can be selected using active contouring for circular cells or using thresholding and watershedding for irregular shaped cells
+##### Circular cells
+- The user clicks 'Select circular cells'. A cursor appears and the user selects desired cells in the brightfield image with a left click, backspace undoes the previous selected point and right click on the final cell ends the cell selection.
 - Upon right clicking, circles (ellipses) appear around each cell and can be changed in shape and size by the user to best fit the outline of each cell. Zoom in, zoom out and grab (in the top left corner) can be used at this point to move around the brightield image if necessary (the image needs to be zoomed back out once complete). For some non-uniform cells, it can be difficult to find a perfect fit, but the cell segmentation process can generally cope with this. Once happy, the user presses enter.
 - The GUI finds cell outlines and plots them on the brightfield image, the cells are numbered and have their radius in microns.
+
+##### Irregular cells
+- Drag the slider to select and intensity threshold which best segments your cells from the background.
+- Click  'Select thresholded cells' and then click on desired cells in the segmented image.
+- On the last cell right click and the software will separate the cells using watershedding
+- A new threshold can now be chosen and more cells selected if required.
+
+##### Analysis
 - The user clicks 'Run analysis'. Graphs of FRET ratio, donor intensity, FRET intensity and acceptor intensity for each cell with time (in minutes) and a cell size histogram are plotted. See completeGUI.jpg.
 - FRET ratio is calculated as FRET intensity/donor intensity for each cell at each time frame.
 
